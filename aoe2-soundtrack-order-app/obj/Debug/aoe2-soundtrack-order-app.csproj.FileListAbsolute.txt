@@ -1,0 +1,9 @@
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\bin\Debug\aoe2-soundtrack-order-app.exe.config
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\bin\Debug\aoe2-soundtrack-order-app.exe
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\bin\Debug\aoe2-soundtrack-order-app.pdb
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\obj\Debug\aoe2-soundtrack-order-app.csprojResolveAssemblyReference.cache
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\obj\Debug\aoe2_soundtrack_order_app.Form1.resources
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\obj\Debug\aoe2_soundtrack_order_app.Properties.Resources.resources
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\obj\Debug\aoe2-soundtrack-order-app.csproj.GenerateResource.Cache
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\obj\Debug\aoe2-soundtrack-order-app.exe
+C:\Users\airso\Desktop\Code\aoe2-winforms-app\aoe2-soundtrack-order-app\obj\Debug\aoe2-soundtrack-order-app.pdb
