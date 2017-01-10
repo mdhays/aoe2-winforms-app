@@ -27,7 +27,18 @@ namespace aoe2_soundtrack_order_app
             if(folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
                 this.label1.Text = folderBrowserDialog1.SelectedPath;
+                this.okButton.Enabled = true;
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
