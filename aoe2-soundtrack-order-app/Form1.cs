@@ -38,7 +38,13 @@ namespace aoe2_soundtrack_order_app
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ReOrder.RenameFiles(pathRef);
+        }
 
+        public string pathRef
+        {
+            get { return label1.Text; }
+            set { label1.Text = value; }
         }
     }
 }
