@@ -10,10 +10,14 @@ namespace aoe2_soundtrack_order_app
     {
         static Random _random = new Random();
 
-        public static List<string> Shuffle<T>(T[] array)
+        public static List<string> Shuffle<T>(T[] refarray)
         {
-            List<string> trackNames = new List<string>();
+            //List<string> trackNames = new List<string>();
+            T[] array = new T[refarray.Length];
+            refarray.CopyTo(array, 0);
             int n = array.Length;
+            List<string> trackNames = new List<string>();
+
             for (int i = 0; i < n; i++)
             {
                 // NextDouble returns a random number between 0 and 1.

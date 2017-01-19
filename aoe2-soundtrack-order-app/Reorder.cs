@@ -20,10 +20,16 @@ namespace aoe2_soundtrack_order_app
             //var randomizedFiles = new Random().Shuffle(files);
             var randomizedFiles = Algorithm.Shuffle(files);
 
-            foreach (var file in files)
+            for (int i = 0; i < files.Length; i++)
             {
-                string trackName = Path.GetFileName(file);
+                string oldTrackName = files[i];
+                string newTrackName = randomizedFiles.First().ToString();
+
+                randomizedFiles.Remove(randomizedFiles.First());
+                File.Delete(newTrackName);
+
                 //System.IO.File.Move("oldfilename", "newfilename");
+                System.IO.File.Move(oldTrackName, newTrackName);
             }
         }
 
